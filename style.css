@@ -68,7 +68,7 @@ img{
 
 @media screen and (max-width: 420px) {
     .row {
-      width: 420px;
+      width: 100%;
 
     }
 
@@ -81,7 +81,8 @@ img{
     #steps .row > .central,
     #steps .row > .right{
       float: none;
-      width: 100%;
+      width: 80%;
+      margin: 0 auto;
     }
 
 }
